@@ -1,0 +1,129 @@
+* {
+    box-sizing: border-box;
+  }
+
+.bigCard{
+    width: 450px;
+    margin: auto;
+    background-color: hsl(0, 0%, 100%);
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+.rectangOne{
+    background-image: linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+    /* display: flex; or inline-flex */
+    
+}
+
+.cricleScore{
+    background-image: linear-gradient(hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0));
+    display: flex;
+  align-items: center; 
+  justify-content: center;
+  width: 135px;
+  height: 135px;
+  margin: auto;
+}
+
+.resultTitle{
+    font-size: 15px;
+    font-weight: 500;
+    color: hsl(241, 100%, 89%)
+}
+
+#parghar{
+    font-size: 12px;
+}
+
+.scoreGradeTitle{
+    font-size: 49px;
+    font-weight: 800;
+    margin: auto;
+}
+
+.scoreGradeLimit{
+    font-size: 11px;
+    font-weight: 500;
+    color: hsl(241, 100%, 89%)
+}
+
+/* .summaryCard{
+    font-size: 13px;
+    margin-bottom: 7px;
+    padding: 10px;
+} */
+
+.reactionRec{
+    margin: auto;
+    color: hsl(0, 100%, 67%);
+}
+
+.rectangle{
+    width: 100%;
+    margin: auto;
+    border-radius: 9px;
+    margin-bottom: 10px;
+    height: 35px;
+}
+
+.textInRec{
+    font-size: 14px;
+}
+
+.bg-button-conti{
+    background-color: hsl(224, 30%, 27%);
+}
+
+.bg-reactionRec{
+    padding: 4px;
+}
+
+#Visual{
+    color: hsl(234, 85%, 45%);
+    font-weight: 500;
+}
+
+#Verbal{
+    color: hsl(166, 100%, 37%);
+    font-weight: 500;
+}
+
+#Memory{
+    color: hsl(39, 100%, 56%);
+    font-weight: 500;
+}
+
+#Reaction{
+    color: hsl(0, 100%, 67%);
+    font-weight: 500;
+}
+
+#bg-reaction{
+    background-color: #FFF6F5;
+}
+
+#bg-memory{
+    background-color: #FFFBF2;
+}
+
+#bg-verbal{
+    background-color: #F2FBFA;
+}
+
+#bg-visual{
+    background-color: #F3F3FD;
+}
+
+@media only screen and (max-width: 580px) {
+    .bigCard{
+        
+        width: 300px;
+        background-color: hsl(0, 0%, 100%);
+        font-family: 'Hanken Grotesk', sans-serif;
+    }
+
+    .rectangOne{
+        width: 93%;
+        margin: auto;
+    }
+  }
